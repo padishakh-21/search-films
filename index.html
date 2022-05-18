@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="bg-light">
+    <div class="header">
+        <h2 class="mt-2 h2 text-center text-primary">Netflix</h2>
+    </div>
+
+    <main>
+        <div class="container">
+            <form class="js-search-form mb-5 d-flex align-items-center justify-content-center" action="https://echo.htmlacademy.ru" method="post">
+                <input class="js-search-input form-control text-primary" type="search" aria-label="Search Movies" placeholder="Search Movies">
+            </form>
+
+            <ul class="js-movies-list list-unstyled d-flex align-items-center justify-content-around flex-wrap p-0"></ul>
+        </div>
+    </main>
+
+    <template id="movies-template">
+        <li class="card mb-4 text-center" style="width: 18rem; height: 270px; overflow: auto;">
+          <div class="card-body">
+            <h5 class="card-title">Small Town Saturday Night</h5>
+    
+            <p class="card-cast card-text">"Chris Pine","Shawn Christian","John Hawkes","Bre Blair","Muse Watson","Robert
+              Pine","Brent Briscoe","Lin Shaye"</p>
+    
+            <p class="card-genres card-text">"Drama"</p>
+    
+            <p class="card-year card-text">2010</p>
+          </div>
+        </li>
+      </template>
+
+    <script src="./js/kinolar.js"></script>
+    <script src="./js/utils.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

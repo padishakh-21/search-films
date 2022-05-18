@@ -1,0 +1,23 @@
+/* erica-one-regular - latin */
+
+@font-face {
+    font-family: 'Erica One';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/erica-one-v23-latin-regular.woff2') format('woff2'), url('../fonts/erica-one-v23-latin-regular.woff') format('woff');
+}
+
+body {
+    font-family: 'Erica One';
+}
+
+input {
+    width: 200px !important;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid #0D6EFD !important;
+}
+
+p {
+    color: #0D6EFD !important;
+}
